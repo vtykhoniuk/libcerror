@@ -3,6 +3,8 @@
 
 #define CERROR_MAXLINE  1024
 
+#include <errno.h>
+
 /* Fatal error related to system call
    Print and terminate */
 void err_sys(const char* fmt, ...);

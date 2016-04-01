@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <string.h>
-#include <errno.h>
 
 static void _error(int, const char*, va_list);
 
